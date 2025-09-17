@@ -2,21 +2,28 @@ name: wuzhurong1122
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 0/6 * * *'
+    - cron: '42 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wuzhurong1122
         env:
-          wjip087: ${{ secrets.wjip087 }}
+          huryl203: ${{ secrets.huryl203 }}
         run: |
-          echo $wjip087 | jq -r .ika57862 | /bin/bash
-          echo $pjbrw3 | jq -r .uwc507 | /bin/bash
-          echo $sflq0 | jq -r .o701 | /bin/bash
-          echo $y7 | jq -r .qit462 | /bin/bash
-          echo $y999 | jq -r .zef0 | /bin/bash
-          echo $lcmy2 | jq -r .h481 | /bin/bash
+          echo $huryl203 | jq -r .uqkx871 | /bin/bash
+          echo $x90 | jq -r .d24089 | /bin/bash
+          echo $gs18599 | jq -r .w487 | /bin/bash
+          echo $y35 | jq -r .irqdm17221 | /bin/bash
+          echo $jfhii9 | jq -r .fija8 | /bin/bash
+          echo $whyuz387 | jq -r .omrjq85 | /bin/bash
+          echo $rk12929 | jq -r .a6159 | /bin/bash
+          echo $lnio30229 | jq -r .vpbwl555 | /bin/bash
+          echo $s21 | jq -r .uvxo969 | /bin/bash
+          echo $uxsl30172 | jq -r .lguu16 | /bin/bash
+          echo $tjo89180 | jq -r .gaqo9289 | /bin/bash
+          echo $g6 | jq -r .jr12358 | /bin/bash
 
